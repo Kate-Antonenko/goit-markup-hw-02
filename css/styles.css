@@ -106,7 +106,7 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -117,14 +117,14 @@ body {
 .team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
 }
 .team-position {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
@@ -143,14 +143,15 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.footer-address {
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
+.footer-address,
 .footer-contacts {
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.footer-address {
+  color: #ffffff;
+}
+.footer-contacts {
   color: rgba(255, 255, 255, 0.6);
 }
 /* ++++++++++PORTFOLIO++++++++++ */
